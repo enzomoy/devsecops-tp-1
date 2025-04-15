@@ -1,0 +1,21 @@
+{
+  "name": "TP1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "dependencies": {
+    "express": "5.1.0",
+    "nodemon": "3.1.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "@types/express": "5.0.1",
+    "ts-node": "10.9.2"
+  },
+  "private": true
+}
